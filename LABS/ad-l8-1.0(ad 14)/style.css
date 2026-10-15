@@ -1,0 +1,79 @@
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #212529;
+  color: #ffffff;
+}
+
+nav {
+  background-color: #6f42c1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #6edff6;
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+main h1,
+main h2 {
+  color: #6edff6;
+}
+
+main img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+}
+
+footer {
+  background-color: #212529;
+  color: #adb5bd;
+  border-top: 2px solid #6f42c1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Botón morado */
+.btn-primary {
+  --bs-btn-bg: #6f42c1;
+  --bs-btn-border-color: #6f42c1;
+  --bs-btn-color: #ffffff;
+
+  /* Al pasar el cursor o enfocar con el teclado */
+  --bs-btn-hover-bg: #6edff6;
+  --bs-btn-hover-border-color: #6edff6;
+  --bs-btn-hover-color: #212529;
+  --bs-btn-focus-shadow-rgb: 111, 66, 193;
+
+  /* Al presionarlo */
+  --bs-btn-active-bg: #6edff6;
+  --bs-btn-active-border-color: #6edff6;
+  --bs-btn-active-color: #212529;
+}
+/* Mensaje de confirmación */
+.alerta-morada {
+  --bs-alert-color: #ffffff;
+  --bs-alert-bg: #6f42c1;
+  --bs-alert-border-color: #6edff6;
+}
